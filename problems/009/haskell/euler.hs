@@ -5,8 +5,8 @@ problem9 = product $ head [[a, b, c] |
                             c <- [1..997],
                             b <- [1..c],
                             a <- [1..b],
-                            isPythagoreanTriplet a b c,
-                            a + b + c == 1000]
+                            a + b + c == 1000,
+                            isPythagoreanTriplet a b c]
 
 main :: IO ()
 main = do
